@@ -78,6 +78,6 @@ mean(MSE2$MSE)
 mean(MSE3$MSE)
 ```
 
-The model with the lowest SME would be the 
+The model with the lowest SME would be the best to use in making predictions over new data.
 
 # References
