@@ -36,7 +36,7 @@ knitr::write_bib(c(
 # Introduction
 
 ```{r}
-head(mtcars) # Che
+head(mtcars) # Chec
 ```
 
 ```{r}
