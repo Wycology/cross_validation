@@ -36,7 +36,7 @@ knitr::write_bib(c(
 # Introduction
 
 ```{r}
-head(mtcars) # Checking first si
+head(mtcars) # Checking first six rows of the dataset
 ```
 
 ```{r}
