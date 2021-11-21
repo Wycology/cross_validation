@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r libs, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
-# Listing all the packages to be 
+# Listing all the packages to be used in the project
 packages <- c('base',
               'knitr',
               'rmarkdown',
