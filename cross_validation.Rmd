@@ -37,7 +37,7 @@ knitr::write_bib(c(
 # Introduction
 
 ```{r}
-head(mtcars) # Checking first 
+head(mtcars) # Checking fi
 ```
 
 ```{r}
