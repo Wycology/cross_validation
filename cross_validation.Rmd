@@ -37,7 +37,7 @@ knitr::write_bib(c(
 # Introduction
 
 ```{r}
-head(mtcars) # Checking first six rows of the datas
+head(mtcars) # Checking first six rows of the dat
 ```
 
 ```{r}
