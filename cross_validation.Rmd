@@ -35,6 +35,8 @@ knitr::write_bib(c(
 
 # Introduction
 
+We will use mtcars dataset which comes with the base R.
+
 ```{r}
 head(mtcars) 
 ```
