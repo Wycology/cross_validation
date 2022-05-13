@@ -49,6 +49,8 @@ cv <- crossv_kfold(mtcars, k = 5)
 cv
 ```
 
+
+
 ```{r}
 models1 <- map(cv$train, ~lm(mpg ~ wt + cyl + hp, data = .))
 models2 <- map(cv$train, ~lm(mpg ~ wt + qsec + am, data = .))
