@@ -57,6 +57,8 @@ models2 <- map(cv$train, ~lm(mpg ~ wt + qsec + am, data = .))
 models3 <- map(cv$train, ~lm(mpg ~ wt + qsec + hp, data = .))
 ```
 
+
+
 ```{r}
 get_pred <- function(model, test_data){
   data <- as.data.frame(test_data)
@@ -67,7 +69,6 @@ pred1 <- map2_df(models1, cv$test, get_pred, .id = 'Run')
 pred2 <- map2_df(models2, cv$test, get_pred, .id = 'Run')
 pred3 <- map2_df(models3, cv$test, get_pred, .id = 'Run')
 ```
-
 
 ```{r}
 MSE1 <- pred1 |> group_by(Run) |> summarise(MSE = mean((mpg - pred)^2))
