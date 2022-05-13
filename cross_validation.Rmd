@@ -41,6 +41,9 @@ We will use mtcars dataset which comes with the base R. To get help about the da
 head(mtcars) 
 ```
 
+
+Breaking the dataset into five chuncks. This is the number of folds the data is being partitioned.  
+
 ```{r}
 cv <- crossv_kfold(mtcars, k = 5)
 cv
