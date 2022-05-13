@@ -71,7 +71,7 @@ MSE3 <- pred3 |> group_by(Run) |> summarise(MSE = mean((mpg - pred)^2))
 MSE1
 ```
 
-Here we then check for the mse.
+Here we then check for the mean square error.
 
 ```{r}
 mean(MSE1$MSE)
